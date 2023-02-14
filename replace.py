@@ -14,8 +14,10 @@ with open(source_file, encoding="utf-8") as f:
       after_file = f.read()
       after_file = after_file.replace(before_name, after_name)
 
-    with open(target_file, 'w', encoding="utf-8") as f:
+    with open('target/after/after_change.txt', 'w', encoding="utf-8") as f:
       f.write(after_file)
       print("変更後：" +row[0])
       print("Success!====================")
+
+print('end')
 
