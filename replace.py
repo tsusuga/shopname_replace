@@ -2,7 +2,7 @@ import csv
 import glob
 
 source_file = 'csv/source.csv'
-target_file = 'target/_shopdata.txt'
+target_file = 'target/_shopdata.ejs'
 
 with open(source_file, encoding="utf-8") as f:
   source_data = csv.reader(f)
