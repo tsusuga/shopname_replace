@@ -1,5 +1,4 @@
 import csv
-import glob
 
 source_file = 'csv/source.csv'
 target_file = 'target/_shopdata.ejs'
