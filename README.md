@@ -7,9 +7,11 @@ CSVファイルを元に、ejsファイルの置換をするスクリプト
 3. スクリプトを実行するとtarget/afterディレクトリに置換処理後ファイルが生成される
 
 ## 構造
+<pre>
 ├─csv
     └─source.csv
 └─target
     ├─_shopdata.ejs
     └─after
           └─after_change.ejs
+</pre>
